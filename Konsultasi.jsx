@@ -6,7 +6,7 @@ import { useState, useEffect, useRef } from "react";
 const Konsultasi = () => {
     const [activeLink, setActiveLink] = useState('home');
     const [scrolled, setScrolled] = useState(false);
-
+    // ada sedikit perbaikan dibawah ini
     useEffect(() => {
         const onScroll = () => {
         if (window.scrollY > 50) {
